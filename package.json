@@ -1,0 +1,36 @@
+{
+  "name": "@drorgl/epn.sdk",
+  "version": "1.0.0",
+  "description": "epn.bz sdk",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config",
+    "build": "rimraf ./dist && tsc",
+    "prepublish": "npm run test && npm run build",
+    "update-swagger": "rimraf ./src/MainAPI && swagger-ts-client -s ./epn_spec_v2.json -t ./src/MainAPI/ePNApiTypes.ts -o ./src/MainAPI"
+  },
+  "author": "Dror Gluska",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "superagent": "^7.1.1"
+  },
+  "devDependencies": {
+    "ts-jest": "^27.1.3",
+    "rimraf": "^3.0.2",
+    "dotenv": "^16.0.0",
+    "@types/jest": "^27.4.1",
+    "@drorgl/swagger-ts-client": "^0.9.13",
+    "@types/node": "^17.0.21",
+    "@types/superagent": "^4.1.15",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.5.1",
+    "typescript": "^4.5.5"
+  }
+}

@@ -1,0 +1,7 @@
+dist
+node_modules
+.env
+coverage/
+.vscode/settings.json
+epn.sdk-*.tgz
+drorgl-epn.sdk-*.tgz

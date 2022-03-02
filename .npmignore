@@ -1,0 +1,12 @@
+node_modules
+src
+.vscode
+tsconfig.json
+epn.sdk-*.tgz
+.env
+coverage
+.eslintrc.json
+dist/test/
+jest.config.js
+test/
+drorgl-epn.sdk-*.tgz
