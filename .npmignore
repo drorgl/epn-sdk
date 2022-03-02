@@ -9,4 +9,4 @@ coverage
 dist/test/
 jest.config.js
 test/
-drorgl-epn.sdk-*.tgz
+drorgl-epn-sdk-*.tgz

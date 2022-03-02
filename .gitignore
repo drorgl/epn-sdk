@@ -4,4 +4,4 @@ node_modules
 coverage/
 .vscode/settings.json
 epn.sdk-*.tgz
-drorgl-epn.sdk-*.tgz
+drorgl-epn-sdk-*.tgz
