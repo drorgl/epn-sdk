@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "epn.bz sdk",
   "main": "dist/src/index.js",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/drorgl/epn-sdk"
+  },
   "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "jest --setupFiles dotenv/config",
