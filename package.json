@@ -1,6 +1,6 @@
 {
   "name": "@drorgl/epn-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "epn.bz sdk",
   "main": "dist/src/index.js",
   "repository": {
