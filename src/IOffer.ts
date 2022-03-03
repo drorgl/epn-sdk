@@ -78,4 +78,6 @@ export interface IOffer {
      * example: {"RUR": 86.58,"USD": 1.1}
      */
     sale_prices: { [currency: string]: number };
+
+    orders_count?: number;
 }
